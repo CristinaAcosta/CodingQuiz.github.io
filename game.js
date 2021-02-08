@@ -21,7 +21,7 @@ let questions  = [
         answer: 3,
     },
     {
-        question: "Commonly used data types DO NOT include",
+        question: 'Commonly used data types DO NOT include',
         choice1: 'Strings',
         choice2: 'Boolean',
         choice3: 'Numbers',
@@ -29,7 +29,7 @@ let questions  = [
         answer: 2,
     },
     {
-        question: "Arrays in javascript can be ued to store?",
+        question: 'Arrays in javascript can be ued to store?',
         choice1: 'Other arrays',
         choice2: 'Numbers and strings',
         choice3: 'Booleans',
@@ -37,7 +37,7 @@ let questions  = [
         answer: 4,
     },
     {
-        question: "The condition in an if/else statement is enclosed with?",
+        question: 'The condition in an if/else statement is enclosed with?',
         choice1: 'Quotes',
         choice2: 'Curly brackets',
         choice3: 'Square brackets',
@@ -110,8 +110,24 @@ incrementScore = num => {
     scoreText.innerText = score
 }
 
+
+var count = 120;
+var timer = setInterval(function() {
+  console.log(count);
+  count--;
+  if(count === 0) {
+    stopInterval()
+  }
+}, 1000);
+
+var stopInterval = function() {
+  console.log('time is up!');
+  clearInterval(timer);
+}
+
 startGame()
 
 function newFunction() {
     return 'end.html';
 }
+

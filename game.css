@@ -29,14 +29,13 @@ body {
 }
 
 .correct {
-    background: linear-gradient(32deg, rgba(11,223,36) 0%, rgba(41, 232, 111) 100%);
+    background: linear-gradient(32deg, rgb(110, 226, 123) 0%, rgba(110, 226, 123) 100%);
 }
 
-.inorrect {
-    background: linear-gradient(32deg, rgba(red) 0%, rgba(red) 100%);
+.incorrect {
+    background: linear-gradient(32deg, rgba(rgb(235, 101, 101)) 0%, rgb(235,101,101) 100%);
 }
 
-/*heads up display */
 #hud {
     display: flex;
     justify-content: space-between;
@@ -71,4 +70,8 @@ body {
     .choice-container {
         min-width: 40rem;
     }
+}
+
+h2{
+    display: flex;
 }
