@@ -113,5 +113,5 @@ incrementScore = num => {
 startGame()
 
 function newFunction() {
-    return '/end.html';
+    return 'end.html';
 }
