@@ -1,6 +1,6 @@
 # CodingQuiz.github.io
 
-## Link: 
+## Link: https://cristinaacosta.github.io/CodingQuiz.github.io/index.html
 
 ## Description:
     I generated a basic coding quiz that would allow the user to test their knowledge on coding. This quiz must be done in under two minutes and will notify the user if the answer is wrong or right. When the user is done with the quiz, they are promoted to enter their intials to add themselves to the leaderboard. From the home screen, they can see who holds the top spot. 
